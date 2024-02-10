@@ -1,0 +1,5 @@
+<form method="post" action="{% url 'delete_user' pk=object.id %}">
+    {% csrf_token %}
+    <p>Are you sure you want to delete {{ object }}?</p>
+    <button type="submit">Delete</button>
+  </form>
