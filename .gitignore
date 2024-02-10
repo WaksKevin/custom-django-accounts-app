@@ -1,1 +1,4 @@
 ~
+__pycache__
+accounts/migrations/*
+!accounts/migrations/__init__.py
